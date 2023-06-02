@@ -1,0 +1,384 @@
+.opaque-navbar{
+  background-color:rgba(0,0,0,0);
+  
+  transition : background-color 0.5s ease 0s;
+}
+
+.hero-section {
+
+  background-image: url(./imgs/praia-principal.jpg);
+  width:100%;
+  background-size:cover;
+  background-position:center;
+  min-height:1000px;
+ 
+}
+
+.page-scroll{
+  color: white !important;
+}
+.ilhadriver {
+  color: blue;
+}
+.principal-texto{
+  text-align: center;
+  margin-top: 250px;
+}
+#rodape-ilhadriver{
+  color: blue;
+}
+#principal-paragrafo{
+  padding: 30px !important;
+}
+
+.avaliacao{
+  padding: 50px;
+  padding-bottom: 100px;
+}
+.centralizar{
+  text-align: center;
+}
+.borda{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+.carro-responsivo {
+  margin-left: 100px;
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#wp-icon{
+  position: fixed;
+  width: 50px !important;
+  height: 50px !important;
+  bottom: 20px;
+  right: 28px;
+  margin-bottom:60px;
+}
+
+#mensagem-de-aviso{
+  margin-top: 5px;
+  color: red;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.icons-maps {
+  margin-right: 5px;
+}
+
+#titulo-card{
+  text-align: center;
+}
+#distanciadamensagemcss{
+  font-weight: bold;
+}
+
+#pontos {
+  padding: 10px !important;
+}
+
+.centralizar-dados, #meuSelectEspera, #meuSelectDeslocamento{
+  text-align: center;
+}
+#detail {
+  display: none;
+}
+#mensagem{
+  display: none;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.formatar-dados{
+  
+}
+
+#detail th,
+#detail td {
+  padding: 10px;
+  width: 100%;
+}
+
+.form-group{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  font-size: 2ch;
+}
+.linha {
+  text-align: center !important;
+  align-items: center;
+  margin-right: 20px;
+  width: 360px;
+  margin-left: 20px;
+}
+
+/* CARD que mostra as inforamacÃµes */
+.card-custom {
+  background-color: white !important;
+  color: black !important;
+  margin-top: 15px !important;
+  padding: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+
+#button-input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#googlemaps {
+  float: left;
+  width: 400px;
+  height: 800px !important;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+#google-maps {
+  margin-top: 40px !important;
+  margin-bottom: 50px !important;
+}
+
+#map {
+  float: left;
+  width: calc(100% - 400px);
+  height: 700px !important;
+}
+
+#logo-rodape{
+  text-align: left !important;
+  background-color: red !important;
+  
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 985px) {
+  .carro-responsivo{
+    width: 800px !important;
+    display: block;
+    margin: auto;
+    width: 100% !important;
+  }
+  #explore{
+    margin-top: 70px;
+  }
+
+  #boneco-com-mala{
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  #googlemaps {
+    margin-left: 60px;
+    height: 680px !important;
+
+  }
+
+  #map {
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+  
+  #explore{
+    margin-top: 100px;
+  }
+
+  #background-playstore{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #googlemaps {
+    margin-left: -50px !important;
+  }
+  
+  #map {
+    height: 500px !important;
+    width: 100% !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 576px) {
+
+  #googlemaps{
+    width: 100% !important;
+    margin: 0px auto;
+    display: block;
+    margin-left: 10px !important;
+  }
+  .selos-da-empresa{
+    padding-top: 50px !important;
+    margin-top: 200px !important;
+  }
+
+  .selos{
+    margin-top: 50px !important;
+  }
+  .footer{
+    margin-top: 70px !important;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  
+  .hero-section{
+    min-height: 800px !important;
+  }
+  #googlemaps {
+    margin: 0px auto !important;
+    display: block !important;
+    margin-bottom: 60px !important;
+    height: 800px !important;
+  }
+
+  #pontos{
+    width: 100% !important;
+}
+ #home{
+  height: 300px !important;
+ }
+  #map {
+    height: 500px !important;
+    width: 100%;
+  }
+  .form-group{
+    width: 90% !important;
+    margin-left: 20px !important;
+  }
+  #detail {
+    margin-left: 20px !important;
+  }
+  
+  .inner {
+    height: 500px !important;
+  }
+  #sec-27c1{
+    margin-top: 50px;
+  }
+  
+  #direitos{
+    margin-top: 30px;
+  }
+
+  .footer .widget-wrapper .footer-widget{
+    text-align: center !important;
+  }
+
+  .socials{
+    text-align: center !important;
+    align-items: center !important;
+    margin-left: 60px !important;
+  }
+
+  #boneco-com-mala{
+    height: 500px;
+  }
+  .porqueescolher{
+    margin-top: 100px !important;
+  }
+
+  .pt-150 {
+    padding-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #googlemaps {
+    margin-left: -50px !important;
+  }
+
+  #map {
+    height: 500px !important;
+    width: 100%;
+  }
+
+  #pontos {
+    padding: 30px !important;
+  }
+
+
+ 
+}
+
+/* Calculadora */
+
+
+.orçamentos{
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.selos-da-empresa{
+  margin-top: 800px;
+  display: block;
+  margin: 0xp auto;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.selos{
+  width: 125px;
+  height: 125px;
+}
+
+.redes-sociais{
+  border-radius: 5px !important;
+  background-color: grey;
+}
+
+.redes-sociais{
+  transition: outline 1s ease 0s;
+}
+
+.redes-sociais:hover{
+  outline: 3px solid #00FF41;
+}
+
+.socials{
+ 
+ justify-content: center !important;
+}
+
+.single-info{
+transition: outline 1s ease 0s;
+border-radius: 4px !important;
+}
+
+.single-info:hover{
+  outline: 2px solid #00FF41;
+}
