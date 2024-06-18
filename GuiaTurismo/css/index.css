@@ -1,0 +1,115 @@
+svg {
+	font-family: "Wendy One", sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+svg text {
+	animation: stroke 9s infinite alternate;
+	stroke-width: 2;
+	stroke: #FFFFFF;
+	font-size: 149px;
+}
+
+@keyframes stroke {
+	0% {
+		fill: rgba(255, 255, 255, 0);
+		stroke: rgba(255, 255, 255, 1);
+		stroke-dashoffset: 25%;
+		stroke-dasharray: 0 50%;
+		stroke-width: 2;
+	}
+
+	70% {
+		fill: rgba(255, 255, 255, 0);
+		stroke: rgba(255, 255, 255, 1);
+	}
+
+	80% {
+		fill: rgba(255, 255, 255, 0);
+		stroke: rgba(255, 255, 255, 1);
+		stroke-width: 3;
+	}
+
+	100% {
+		fill: rgba(255, 255, 255, 1);
+		stroke: rgba(255, 255, 255, 0);
+		stroke-dashoffset: -25%;
+		stroke-dasharray: 50% 0;
+		stroke-width: 0;
+	}
+}
+
+#logo {
+	width: 300px !important;
+	height: 100px !important;
+	margin-left: auto;
+	left: 50%;
+	margin-right: -130%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.localizacaoBranco {
+	color: white !important;
+}
+
+.galeriaPraias {
+	height: 300px !important;
+	width: 300px !important;
+}
+
+.popular-card {
+	border-radius: 8px !important;
+	-webkit-box-shadow: 7px 7px 13px -2px #949494;
+	box-shadow: 7px 7px 13px -2px #949494;
+}
+
+.package-card {
+	border-radius: 8px !important;
+	-webkit-box-shadow: 7px 7px 13px -2px #949494;
+	box-shadow: 7px 7px 13px -2px #949494;
+}
+
+#logo-capa {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin: auto;
+	display: block;
+	padding: 20px !important;
+}
+
+
+ol, ul{
+	padding-left: 0px !important
+}
+
+@media (min-width: 495px) {
+	#ilhadriver {
+		text-align: center !important;
+		align-items: center !important;
+		height: auto;
+		margin: auto;
+		display: block;
+		padding: 20px !important;
+	}
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+	#ilhadriver {
+		text-align: center !important;
+		align-items: center !important;
+		height: auto;
+		margin: auto;
+		display: block;
+		padding: 20px !important;
+	}
+
+}
