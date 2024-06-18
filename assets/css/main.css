@@ -5,6 +5,77 @@ html {
 }
 
 
+.icon.color-1 .icon.color-2 .icon.color-3{
+ box-shadow: 9px 7px 15px 0px #000000;
+}
+
+.icon.color-4{
+  background: linear-gradient(#fbff0c 0%, hsl(66, 100%, 37%) 100%);
+  box-shadow: 0px 7px 10px rgba(110, 90, 245, 0.27);
+  box-shadow: 9px 7px 15px 0px #000000;
+}
+
+.icon.color-5{
+  background: linear-gradient(#7eb6ff 0%, hsl(212, 100%, 37%) 100%);
+  box-shadow: 0px 7px 10px rgba(110, 90, 245, 0.27);
+  box-shadow: 9px 7px 15px 0px #000000;
+}
+
+.icon.color-6{
+  background: linear-gradient(#cb5cff 0%, hsl(278, 98%, 48%) 100%);
+  box-shadow: 0px 7px 10px rgba(110, 90, 245, 0.27);
+  box-shadow: 9px 7px 15px 0px #000000;
+}
+
+
+
+#principal-paragrafo{
+  font-size: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   font-family: "Sen", sans-serif;
   font-weight: normal;
@@ -1612,16 +1683,19 @@ p {
 .feature-section .single-feature .icon.color-1 {
   background: linear-gradient(#b89cfe 0%, #624ff3 100%);
   box-shadow: 0px 7px 10px rgba(110, 90, 245, 0.27);
+   box-shadow: 9px 7px 15px 0px #000000;
 }
 
 .feature-section .single-feature .icon.color-2 {
   background: linear-gradient(#ff92a5 0%, #ff67a3 100%);
   box-shadow: 0px 7px 10px rgba(255, 110, 163, 0.27);
+   box-shadow: 9px 7px 15px 0px #000000;
 }
 
 .feature-section .single-feature .icon.color-3 {
   background: linear-gradient(#ffb37a 0%, #ff884a 100%);
   box-shadow: 0px 7px 10px rgba(255, 142, 81, 0.27);
+   box-shadow: 9px 7px 15px 0px #000000;
 }
 
 
