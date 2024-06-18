@@ -90,6 +90,8 @@
 .centralizar-dados, #meuSelectEspera, #meuSelectDeslocamento{
   text-align: center;
 }
+
+
 #detail {
   display: none;
 }
@@ -250,6 +252,19 @@
   .footer{
     margin-top: 70px !important;
   }
+
+    #boneco-com-mala{
+     width: 100%;
+  max-width: 400px;
+  height: auto;
+  }
+
+  .carro-responsivo {
+     width: 100%;
+  max-width: 400px;
+  height: auto;
+  }
+
 }
 
 
